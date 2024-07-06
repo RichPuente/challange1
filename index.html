@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="flex-column">
+
+    <main class="untitled-page main">
+      <section class="formSection">
+        <div class="formContainer">
+          <div class="inputContainer">
+            <div class="inputHeader">
+              <img class="logoImage" src="./img/Logo.png" alt="alt text" />
+              <input id="encriptarText" placeholder="Ingrese el texto aqui:" type="text" class="formTitle"></input>
+            </div>
+            <div class="inputWrapper">
+              <div class="instructions">Solo letras minúsculas y sin acentos</div>
+              <img class="keyImage" src="./img/exclamation.png" alt="alt text" />
+              <div class="buttonContainer">
+                <button class="encryptButton" onclick="encriptar()">Encriptar</button>
+                <button class="decryptButton" onclick="desencriptar()">Desencriptar</button>
+              </div>
+            </div>
+          </div>
+          <div class="messageContainer">
+            <img  id="muñeco" class="messageImage" src="./img/Muñeco.png" alt="alt text" />
+            <h2 id="textoEncriptado" class="messageTitle">Ningún mensaje fue encontrado</h2>
+            <h5 id="mensajeinicial" class="messageSubtitle">Ingresa el texto que desees encriptar o desencriptar.</h5>
+            <button class="encryptButton">         
+                Copiar
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+
+</html>
+
+<script src="main.js"></script>

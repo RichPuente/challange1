@@ -1,0 +1,275 @@
+
+.encriptar{
+    background: #F3F5FC;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    padding: 50px;
+    border-radius: 105px;
+}
+
+.desencriptar{
+    height: 10rem;
+}
+
+.presentacion_botones{
+    padding: 16px 650px;
+    width: 200px;
+    color: darkblue;
+    border: 30px; 
+     
+}
+
+.botonEncriptar{
+    color: white;
+    background-color: darkblue;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+.botonDesencriptar{
+    color: white;
+    background-color: darkblue;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+/*******************************/
+.untitled-page {
+    &.main {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(243 245 252);
+      overflow: hidden;
+    }
+  
+    .formSection {
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 40px;
+    }
+  
+    .formContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0 10px;
+      margin: 40px auto 0;
+      width: 94.44%;
+      max-width: 1360px;
+  
+      @include xl {
+        flex-direction: column;
+        gap: 30px 10px;
+      }
+    }
+  
+    .inputContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 635px 0;
+      width: 880px;
+      min-width: 0;
+  
+      @include xl {
+        margin-top: unset;
+        margin-bottom: unset;
+        width: 100%;
+        min-width: unset;
+      }
+  
+      @include md {
+        gap: 150px 0;
+      }
+  
+      @include xs {
+        gap: 80px 0;
+      }
+  
+      @include tn {
+        gap: 50px 0;
+      }
+    }
+  
+    .inputHeader {
+      display: flex;
+      flex-direction: column;
+      gap: 80px 0;
+      width: 507px;
+      max-width: 85%;
+  
+      @include tn {
+        gap: 50px 0;
+      }
+    }
+  
+    .logoImage {
+      width: 120px;
+      max-width: 85%;
+      height: 48px;
+      object-fit: cover;
+    }
+  
+    .formTitle {
+      display: flex;
+      justify-content: flex-end;
+      font: 400 32px/1.5 Inter, Helvetica, Arial, serif;
+      color: rgb(10 56 113);
+      text-align: right;
+  
+      @include md {
+        align-items: flex-start;
+        font-size: 30px;
+      }
+  
+      @include xxs {
+        font-size: 26px;
+      }
+    }
+  
+    .inputWrapper {
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 0 auto;
+      width: 679.96875px;
+      max-width: 85%;
+    }
+  
+    .instructions {
+      margin: 0 24px;
+      font: 400 12px/1.5 Inter, Helvetica, Arial, serif;
+      color: rgb(73 80 87);
+      opacity: 0.8;
+  
+      @include xs {
+        margin: 0 16px;
+      }
+  
+      @include tn {
+        margin: 0 8px;
+      }
+    }
+  
+    .keyImage {
+      width: 16px;
+      height: 16px;
+      object-fit: cover;
+    }
+  
+    .buttonContainer {
+      display: flex;
+      gap: 0 24px;
+  
+      @include md {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px 24px;
+      }
+    }
+  
+    .encryptButton {
+      display: flex;
+      justify-content: center;
+      min-width: 328px;
+      font: 400 16px/1.18 Inter, Helvetica, Arial, serif;
+      color: rgb(255 255 255);
+      text-align: center;
+      background-color: rgb(10 56 113);
+      border-radius: 24px;
+      padding: 24px 8px;
+  
+      @include md {
+        margin-top: unset;
+        margin-bottom: unset;
+        width: 100%;
+        min-width: unset;
+      }
+    }
+  
+    .decryptButton {
+      display: flex;
+      justify-content: center;
+      min-width: 328px;
+      font: 400 16px/1.18 Inter, Helvetica, Arial, serif;
+      color: rgb(10 56 113);
+      text-align: center;
+      background-color: rgb(216 223 232);
+      border-radius: 24px;
+      padding: 24px 8px;
+      outline: 1px solid rgb(10 56 113);
+      outline-offset: -1px;
+  
+      @include md {
+        margin-top: unset;
+        margin-bottom: unset;
+        width: 100%;
+        min-width: unset;
+      }
+    }
+  
+    .messageContainer {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      min-width: 0;
+      background-color: rgb(255 255 255);
+      border-radius: 32px;
+      padding: 243px 32px;
+      box-shadow: 0 24px 32px -8px rgb(0 0 0 / 7.84%);
+  
+      @include xl {
+        margin-top: unset;
+        margin-bottom: unset;
+        width: 100%;
+        min-width: unset;
+      }
+  
+      @include md {
+        padding: 150px 32px;
+      }
+  
+      @include xs {
+        padding: 80px 32px;
+      }
+  
+      @include tn {
+        padding: 50px 8px;
+      }
+    }
+  
+    .messageImage {
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .messageTitle {
+      display: flex;
+      justify-content: center;
+      margin: 32px 0 0;
+      font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+      color: rgb(52 58 64);
+      text-align: center;
+  
+      @include md {
+        align-items: flex-start;
+        font-size: 22px;
+      }
+  
+      @include xxs {
+        font-size: 20px;
+      }
+    }
+  
+    .messageSubtitle {
+      display: flex;
+      justify-content: center;
+      margin: 16px 0 0;
+      font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+      color: rgb(73 80 87);
+      text-align: center;
+    }
+  }
